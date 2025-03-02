@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import * as fabric from "fabric";
-import Toolbar from "./Toolbar";
-import Placeholder from "./Placeholder";
+import Toolbar from "./Toolbar.jsx";
+import Placeholder from "./Placeholder.jsx";
 
 const CanvasBoard = () => {
     const canvasRef = useRef(null);
